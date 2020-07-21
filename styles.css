@@ -134,11 +134,11 @@ font-family: 'Satisfy', cursive;
 #triangle-up {
 	width: 0;
 	height: 0;
-	border-left: 400px solid transparent;
-	border-right: 400px solid transparent;
-	border-bottom: 350px solid;
+	border-left: 300px solid transparent;
+	border-right: 300px solid transparent;
+	border-bottom: 250px solid;
   color: #d1d1d1;
-  transition: transform 2s ease, color 1s ease-out;
+  transition: transform 2s ease, background-color 1s ease-out, color 1s ease-out;
 }
 .figure {
   display: flex;
@@ -146,216 +146,30 @@ font-family: 'Satisfy', cursive;
   margin-top: 90px;
 
 }
-#triangle-up:hover {
-  transform: translateY(-20px);
-  color: #000;
+.card-body:hover {
+
 }
 .card-final {
-height: 600px;
-  width: 800px;
+width: 70%;
+height: 100%;
 
 }
 .card-up {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
-.figure-text {
-  color: gray;
-  position: relative;
-  top: 200px;
-  right: 80px;
-}
+
 .card-center  {
   text-align: center;
 }
 .card-home-text{
   font-size: 18pt;
-  margin-left: 65px;
-  margin-right: 65px;
+  padding: 10px;
 }
 
-
-
-
-#infinity {
-    position: relative;
-    top: -450px;
-    left: 50px;
-    width: 200px;
-    height: 50px;
-    transform: rotate(90deg);
-    transition: transform 2s ease;
-}
-#infinity:hover {
-  transform: rotate(540deg);
-}
-
-#infinity:before,
-#infinity:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    border: 20px solid #dcf4fa;
-    -moz-border-radius: 50px 50px 0 50px;
-         border-radius: 50px 50px 0 50px;
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-}
-
-#infinity:after {
-    left: auto;
-    right: 0;
-    -moz-border-radius: 50px 50px 50px 0;
-         border-radius: 50px 50px 50px 0;
-    -webkit-transform:rotate(45deg);
-       -moz-transform:rotate(45deg);
-        -ms-transform:rotate(45deg);
-         -o-transform:rotate(45deg);
-            transform:rotate(45deg);
-}
-
-
-
-
-#infinity1 {
-    position: relative;
-    top: -235px;
-    left: 50px;
-    width: 200px;
-    height: 50px;
-    transform: rotate(90deg);
-    transition: transform 2s ease-out;
-}
-#infinity1:hover {
-  transform: rotate(540deg);
-}
-
-#infinity1:before,
-#infinity1:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    border: 20px solid #81bdcc;
-    -moz-border-radius: 50px 50px 0 50px;
-         border-radius: 50px 50px 0 50px;
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-}
-
-#infinity1:after {
-    left: auto;
-    right: 0;
-    -moz-border-radius: 50px 50px 50px 0;
-         border-radius: 50px 50px 50px 0;
-    -webkit-transform:rotate(45deg);
-       -moz-transform:rotate(45deg);
-        -ms-transform:rotate(45deg);
-         -o-transform:rotate(45deg);
-            transform:rotate(45deg);
-}
-
-
-
-.rhite{
+.container {
+  margin-top: 90px;
   display: flex;
-  justify-content: flex-end;
-}
-#infinity2 {
-    position: relative;
-    top: -550px;
-    right:  -150px;
-    width: 200px;
-    height: 50px;
-    transform: rotate(90deg);
-    transition: transform 2s ease;
-}
-#infinity2:hover {
-  transform: rotate(540deg);
-}
-
-#infinity2:before,
-#infinity2:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    border: 20px solid #dcf4fa;
-    -moz-border-radius: 50px 50px 0 50px;
-         border-radius: 50px 50px 0 50px;
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-}
-
-#infinity2:after {
-    left: auto;
-    right: 0;
-    -moz-border-radius: 50px 50px 50px 0;
-         border-radius: 50px 50px 50px 0;
-    -webkit-transform:rotate(45deg);
-       -moz-transform:rotate(45deg);
-        -ms-transform:rotate(45deg);
-         -o-transform:rotate(45deg);
-            transform:rotate(45deg);
-}
-
-
-
-#infinity3 {
-    position: relative;
-    top: -280px;
-    right:  50px;
-    width: 200px;
-    height: 50px;
-    transform: rotate(90deg);
-    transition: transform 2s ease-out;
-}
-#infinity3:hover {
-  transform: rotate(540deg);
-}
-
-#infinity3:before,
-#infinity3:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    border: 20px solid #81bdcc;
-    -moz-border-radius: 50px 50px 0 50px;
-         border-radius: 50px 50px 0 50px;
-    -webkit-transform: rotate(-45deg);
-       -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-         -o-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-}
-
-#infinity3:after {
-    left: auto;
-    right: 0;
-    -moz-border-radius: 50px 50px 50px 0;
-         border-radius: 50px 50px 50px 0;
-    -webkit-transform:rotate(45deg);
-       -moz-transform:rotate(45deg);
-        -ms-transform:rotate(45deg);
-         -o-transform:rotate(45deg);
-            transform:rotate(45deg);
+  justify-content: center;
 }
